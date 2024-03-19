@@ -1,0 +1,13 @@
+{
+    "description": "Activities related to the current finding",
+    "caption": "Activities",
+    "name": "activities",
+    "extends": "object",
+    "attributes": {
+      "process_activities": {
+        "group": "primary",
+        "requirement": "optional"
+      }
+    }
+  }
+  

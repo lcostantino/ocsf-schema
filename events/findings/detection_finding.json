@@ -12,6 +12,10 @@
     "$include": [
       "profiles/security_control.json"
     ],
+    "activities": {
+      "group": "primary",
+      "requirement": "optional"
+    },
     "evidences": {
       "group": "primary",
       "requirement": "recommended"
