@@ -6,7 +6,7 @@
   "uid": 7,
   "attributes": {
     "$include": [
-      "objects/process_related_activity.json"
+      "objects/activities/process_related_activity.json"
     ]
   }
 }
