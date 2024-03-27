@@ -13,6 +13,31 @@
       "is_array": true,
       "type": "process_related_activity" 
    },
+    "network_activities": {
+      "description": "Network Activity events report network connection and traffic activity.",
+      "caption": "Network Activities",
+      "is_array": true,
+      "type": "network_related_activity" 
+      },
+      "dns_activities": {
+        "caption": "DNS Activities",
+        "description": "DNS Activity report DNS queries and answers activity.",
+        "is_array": true,
+        "type": "dns_related_activity"
+      },
+    "authentication_activities": {
+      "caption": "Authentication Activities",
+      "description": "Authentication Activity events report authentication session activity.",
+      "is_array": true,
+      "type": "authentication_related_activity"
+
+    },
+    "http_activities": {
+      "caption": "HTTP Activities",
+      "description": "HTTP Activity events report HTTP connection and traffic information.",
+      "is_array": true,
+      "type": "http_related_activity"
+    },
     "access_list": {
       "caption": "Access List",
       "description": "The list of requested access rights.",

@@ -4,10 +4,26 @@
     "name": "activities",
     "extends": "object",
     "attributes": {
+      "authentication_activities": {
+        "group": "primary",
+        "requirement": "optional"
+      },
+      "dns_activities": {
+        "group": "primary",
+        "requirement": "optional"
+      },
+      "http_activities": {
+        "group": "primary",
+        "requirement": "optional"
+      },
+      "network_activities": {
+        "group": "primary",
+        "requirement": "optional"
+      },
       "process_activities": {
         "group": "primary",
         "requirement": "optional"
       }
     }
-  }
+}
   
