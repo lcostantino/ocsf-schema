@@ -37,6 +37,12 @@
       "is_array": true,
       "type": "http_related_activity"
     },  
+    "memory_activities": {
+      "caption": "Memory Activities",
+      "description": "Memory Activities report loads/unload of modules or libraries",
+      "is_array": true,
+      "type": "memory_related_activity"
+    },
     "module_activities": {
       "caption": "Module Activities",
       "description": "Module Activities report loads/unload of modules or libraries",

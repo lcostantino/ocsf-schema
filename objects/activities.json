@@ -24,6 +24,10 @@
         "group": "primary",
         "requirement": "optional"
       },
+      "memory_activities": {
+        "group": "primary",
+        "requirement": "optional"
+      },
       "module_activities": {
         "group": "primary",
         "requirement": "optional"
