@@ -16,6 +16,10 @@
     },
     "disposition_id": {
       "requirement": "optional"
+    },
+    "actor": {
+      "description": "The actor associated to this activity",
+      "requirement": "optional"
     }
   }
 }

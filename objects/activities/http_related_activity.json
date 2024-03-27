@@ -1,7 +1,7 @@
 {
     "caption": "HTTP Related Activity",
-    "category": "network",
     "description": "HTTP Related Activity report HTTP connection and traffic information.",
+    "category": "network",
     "extends": "network_related_activity",
     "name": "http_related_activity",
     "attributes": {

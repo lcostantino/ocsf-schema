@@ -5,24 +5,8 @@
   "name": "module_activity",
   "uid": 5,
   "attributes": {
-    "activity_id": {
-      "enum": {
-        "1": {
-          "caption": "Load"
-        },
-        "2": {
-          "caption": "Unload"
-        }
-      }
-    },
-    "actor": {
-      "description": "The actor that loaded or unloaded the <code>module</code>.",
-      "requirement": "required"
-    },
-    "module": {
-      "description": "The module that was loaded or unloaded.",
-      "group": "primary",
-      "requirement": "required"
-    }
+    "$include": [
+      "objects/activities/module_related_activity.json"
+    ]
   }
 }
