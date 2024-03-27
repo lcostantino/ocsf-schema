@@ -26,6 +26,10 @@
         }
       }
     },
+    "activities": {
+      "group": "primary",
+      "requirement": "optional"
+    },
     "analytic": {
       "group": "primary",
       "requirement": "recommended"

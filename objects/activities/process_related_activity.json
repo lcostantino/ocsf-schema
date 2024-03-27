@@ -1,0 +1,57 @@
+{
+    "caption": "Process Related Activity",
+    "description": "Process Activity report when a process performs an action on a process.",
+    "name": "process_related_activity",
+    "extends": "related_activity",
+    "attributes": {
+      "activity_id": {
+        "enum": {
+          "1": {
+            "caption": "Launch"
+          },
+          "2": {
+            "caption": "Terminate"
+          },
+          "3": {
+            "caption": "Open"
+          },
+          "4": {
+            "caption": "Inject"
+          },
+          "5": {
+            "caption": "Set User ID"
+          }
+        }
+      },
+     "actual_permissions": {
+        "group": "primary",
+        "requirement": "recommended"
+      },
+      "exit_code": {
+        "group": "primary",
+        "requirement": "recommended"
+      },
+      "injection_type": {
+        "group": "primary",
+        "requirement": "recommended"
+      },
+      "injection_type_id": {
+        "group": "primary",
+        "requirement": "recommended"
+      },
+      "module": {
+        "description": "The module that was injected by the actor process.",
+        "group": "primary",
+        "requirement": "recommended"
+      },
+      "process": {
+        "description": "The process that was launched, injected into, opened, or terminated.",
+        "group": "primary",
+        "requirement": "required"
+      },
+      "requested_permissions": {
+        "group": "primary",
+        "requirement": "recommended"
+      }
+    }
+}

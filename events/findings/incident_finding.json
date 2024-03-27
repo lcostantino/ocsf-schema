@@ -28,6 +28,10 @@
       "description": "The Incident activity name, as defined by the <code>activity_id</code>.",
       "requirement": "optional"
     },
+    "activities": {
+      "group": "primary",
+      "requirement": "optional"
+    },
     "assignee": {
       "group": "context",
       "requirement": "optional"

@@ -1,0 +1,25 @@
+{
+  "caption": "Common Activity Trait",
+  "description": "Common Activity trait defines attributes shared by Activity events.",
+  "attributes": {
+    "app_name": {
+      "group": "context",
+      "requirement": "optional"
+    },
+    "time": {
+      "description": "The normalized event occurrence time.",
+      "group": "primary",
+      "requirement": "optional"
+    },
+    "disposition": {
+      "requirement": "optional"
+    },
+    "disposition_id": {
+      "requirement": "optional"
+    },
+    "actor": {
+      "description": "The actor associated to this activity",
+      "requirement": "optional"
+    }
+  }
+}

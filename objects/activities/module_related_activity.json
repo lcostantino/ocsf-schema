@@ -1,0 +1,24 @@
+{
+    "caption": "Module Related Activity",
+    "description": "Module Related Activity events report when a process loads or unloads the <code>module</code>.",
+    "name": "module_related_activity",
+    "extends": "related_activity",
+    "attributes": {
+      "activity_id": {
+        "enum": {
+          "1": {
+            "caption": "Load"
+          },
+          "2": {
+            "caption": "Unload"
+          }
+        }
+      },
+      "module": {
+        "description": "The module that was loaded or unloaded.",
+        "group": "primary",
+        "requirement": "required"
+      }
+    }
+  }
+  

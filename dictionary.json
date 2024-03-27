@@ -3,6 +3,70 @@
   "description": "The Attribute Dictionary defines attributes and includes references to the events and objects in which they are used.",
   "name": "dictionary",
   "attributes": {
+    "activities": {
+      "type": "activities",
+      "caption": "Activities"
+    },
+    "authentication_activities": {
+      "caption": "Authentication Activities",
+      "description": "Authentication Activities events report authentication session activity.",
+      "is_array": true,
+      "type": "authentication_related_activity"
+    },
+    "dns_activities": {
+      "caption": "DNS Activities",
+      "description": "DNS Activities report DNS queries and answers activity.",
+      "is_array": true,
+      "type": "dns_related_activity"
+    },
+    "email_activities": {
+      "caption": "Email Activities",
+      "description": "Email Activity reports mail activities",
+      "is_array": true,
+      "type": "email_related_activity"
+    },
+    "filesystem_activities": {
+      "caption": "File System Activities",
+      "description": "File System Activity events report when a process performs an action on a file or folder.",
+      "is_array": true,
+      "type": "file_related_activity"
+    },
+    "http_activities": {
+      "caption": "HTTP Activities",
+      "description": "HTTP Activities events report HTTP connection and traffic information.",
+      "is_array": true,
+      "type": "http_related_activity"
+    },  
+    "memory_activities": {
+      "caption": "Memory Activities",
+      "description": "Memory Activities report loads/unload of modules or libraries",
+      "is_array": true,
+      "type": "memory_related_activity"
+    },
+    "module_activities": {
+      "caption": "Module Activities",
+      "description": "Module Activities report loads/unload of modules or libraries",
+      "is_array": true,
+      "type": "module_related_activity"
+    },
+    "network_activities": {
+      "caption": "Network Activities",
+      "description": "Network Activities report network connection and traffic activity.",
+      "is_array": true,
+      "type": "network_related_activity" 
+      },
+    "process_activities": {
+      "caption": "Process Activities",
+      "description": "Process Activities events report when a process perform an action on another process",
+      "is_array": true,
+      "type": "process_related_activity" 
+   },
+    "smb_activities": {
+      "caption": "SBM Activities",
+      "description": "SBM Activities report client/server connections sharing resources within the network.",
+      "is_array": true,
+      "type": "smb_related_activity"
+    },
     "access_list": {
       "caption": "Access List",
       "description": "The list of requested access rights.",

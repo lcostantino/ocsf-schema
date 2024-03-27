@@ -1,0 +1,50 @@
+{
+    "description": "Activities related to the current finding",
+    "caption": "Activities",
+    "name": "activities",
+    "extends": "object",
+    "attributes": {
+      "authentication_activities": {
+        "group": "primary",
+        "requirement": "optional"
+      },
+      "dns_activities": {
+        "group": "primary",
+        "requirement": "optional"
+      },
+      "email_activities": {
+        "group": "primary",
+        "requirement": "optional"
+      },
+      "filesystem_activities": {
+        "group": "primary",
+        "requirement": "optional"
+      },
+      "http_activities": {
+        "group": "primary",
+        "requirement": "optional"
+      },
+      "memory_activities": {
+        "group": "primary",
+        "requirement": "optional"
+      },
+      "module_activities": {
+        "group": "primary",
+        "requirement": "optional"
+      },
+      "network_activities": {
+        "group": "primary",
+        "requirement": "optional"
+      },
+      "process_activities": {
+        "group": "primary",
+        "requirement": "optional"
+      },
+      "smb_activities": {
+        "group": "primary",
+        "requirement": "optional"
+      }
+
+    }
+}
+  

@@ -1,0 +1,11 @@
+{
+    "caption":  "Related Base Activity",
+    "description": "Related Base Activity",
+    "name": "related_activity",
+    "extends": "object",
+    "attributes": {
+       "$include": [
+          "includes/common_activity.json"
+        ]
+      }
+  }

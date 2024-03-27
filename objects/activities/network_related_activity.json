@@ -1,0 +1,13 @@
+{
+    "caption": "Network Related Activity",
+    "description": "Network Activity events report network connection and traffic activity.",
+    "name": "network_related_activity",
+    "extends": "object",
+    "attributes": {
+       "$include": [
+          "includes/common_activity.json",
+          "includes/network/network_activities.json",  
+          "includes/network/base_network.json"
+        ]
+      }
+  }
